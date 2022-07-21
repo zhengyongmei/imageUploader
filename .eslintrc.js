@@ -15,5 +15,9 @@ module.exports = {
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
+    "no-irregular-whitespace": "off",
+    "no-empty": "off", //允许空代码块
+    "no-empty-function": "off", //允许空函数
+    "@typescript-eslint/no-explicit-any": "off", //允许any类型
   },
 };

@@ -1,5 +1,11 @@
 # example_uploader
 
+## 使用方法看下方
+```
+<Uploader :img.sync="url" maxLimitWidth="1000" maxLimitHeight="1000" />
+
+```
+
 ## Project setup
 ```
 npm install
